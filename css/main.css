@@ -1,0 +1,141 @@
+/*** BASE STYLES PT ***/
+body {
+    font-family: 'Newsreader', serif;
+}
+
+/*** GRID ***/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.third-width {
+    width: 400px;
+    height: auto;
+    float: left;
+}
+
+/*** HEADER PT ***/
+#header .full-width{
+  height: 800px;
+}
+#header h1 {
+  font-size: 75px;
+  color: #313131;
+  margin-left: 50px;
+  margin-right: 400px;
+  margin-top: 175px;
+}
+#header p {
+  font-size: 60px;
+  margin-left: 50px;
+  margin-right: 200px;
+
+}
+
+/*** ABOUT PT ***/
+#about .full-width {
+  height: 1050px;
+  background: #ff654a;
+}
+
+#about h2 {
+  font-family: 'Newsreader', serif;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 100px;
+
+}
+#about p {
+  font-size: 30px;
+  width: 600px;
+  color: #ffffff;
+  line-height: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#about img {
+  display: block;
+  width: 250px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 5px solid #ffffff;
+
+
+}
+
+/*** WORK PT ***/
+#work .full-width{
+  height: 850px;
+}
+#work h2 {
+  font-family: 'Newsreader', serif;
+  font-size: 50px;
+  color: #313131;
+  text-align: center;
+  margin-top: 150px;
+}
+#work h3 {
+  font-family: 'Newsreader', serif;
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+}
+#work p {
+  font-size: 16px;
+  color: 313131;
+  line-height: 25px;
+  text-align: center;
+}
+#work img {
+  width: 300px;
+  height: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+/*** CONTACT PT ***/
+#contact .full-width{
+  height: 650px;
+  background: #ff654a;
+}
+#contact .third-width {
+  color: #ffffff;
+}
+#contact h2 {
+  font-family: 'Newsreader', serif;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 100px;
+}
+#contact h3 {
+  font-family: 'Newsreader', serif;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+#contact p {
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 40px;
+  text-align: center;
+}
+#contact img {
+  width: 50px;
+  height: auto;
+}
+#contact a {
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
